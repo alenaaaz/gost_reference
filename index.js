@@ -87,11 +87,9 @@ var DataProcessor = /** @class */ (function () {
         }
         if (includePages) {
             if (addDash) {
-                reference += " - \u0421. ".concat(pages, ".");
+                reference += "".concat(addDash ? '-' : '', " \u0421. ").concat(pages, ".");
             }
-            else {
-                reference += " \u0421. ".concat(pages, ".");
-            }
+            
         }
         return reference;
     };
