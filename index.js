@@ -55,7 +55,7 @@ var DataProcessor = /** @class */ (function () {
             else if (editors_1) {
                 gostReference += ", \u041F\u043E\u0434 \u0440\u0435\u0434. ".concat(editors_1);
             }
-            gostReference += ". ";
+            // gostReference += ". ";
         }
         else {
             gostReference = "".concat(authors.join(', '), " ").concat(title, ".");
